@@ -1,0 +1,8 @@
+# Split the Bill $
+
+print("Welcome to the Bill Splitter")
+bill = float(input("What was the total bill? $"))
+people = int(input("How many people will split the bill? "))
+price_per_person = bill / people
+
+print("The total price per person is: ", price_per_person)
